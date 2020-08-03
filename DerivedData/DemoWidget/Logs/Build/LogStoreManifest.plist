@@ -210,6 +210,40 @@
 			<key>uniqueIdentifier</key>
 			<string>2FCACCE5-4FD9-4560-8BC3-D2050D5DDDEC</string>
 		</dict>
+		<key>312A4220-B111-476A-A0E6-AEB7905FC7B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>312A4220-B111-476A-A0E6-AEB7905FC7B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DemoWidget project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DemoWidget</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DemoWidget</string>
+			<key>timeStartedRecording</key>
+			<real>618181259.31029701</real>
+			<key>timeStoppedRecording</key>
+			<real>618181262.29103005</real>
+			<key>title</key>
+			<string>Build DemoWidget</string>
+			<key>uniqueIdentifier</key>
+			<string>312A4220-B111-476A-A0E6-AEB7905FC7B3</string>
+		</dict>
 		<key>566E964B-5FED-4237-8C64-07F6E8E9D555</key>
 		<dict>
 			<key>className</key>

@@ -1,10 +1,9 @@
 version: "Apple Swift version 5.3 (swiftlang-1200.0.22.4 clang-1200.0.25.1)"
 options: "f1b3ca98a6aca130faaaf9b04f777083"
-build_time: [1596471371, 210644000]
+build_time: [1596488461, 250453000]
 inputs:
   "/Users/lewisgriffin/Documents/SwiftUI/DemoWidget/DemoWidget/ContentView.swift": [1596471354, 848132799]
-  "/Users/lewisgriffin/Documents/SwiftUI/DemoWidget/DemoWidget/Views/MovieView.swift": [1596371025, 912416537]
   "/Users/lewisgriffin/Documents/SwiftUI/DemoWidget/DemoWidget/Views/MovieRatingView.swift": [1596371025, 899799232]
   "/Users/lewisgriffin/Documents/SwiftUI/DemoWidget/DemoWidget/DemoWidgetApp.swift": [1596460790, 787751063]
   "/Users/lewisgriffin/Documents/SwiftUI/DemoWidget/DemoWidget/Data/Movie.swift": [1596371523, 581085336]
-  "/Users/lewisgriffin/Documents/SwiftUI/DemoWidget/DemoWidget/Views/MyMovieView.swift": [1596463142, 493319688]
+  "/Users/lewisgriffin/Documents/SwiftUI/DemoWidget/DemoWidget/Views/MyMovieView.swift": [1596484204, 149246987]
