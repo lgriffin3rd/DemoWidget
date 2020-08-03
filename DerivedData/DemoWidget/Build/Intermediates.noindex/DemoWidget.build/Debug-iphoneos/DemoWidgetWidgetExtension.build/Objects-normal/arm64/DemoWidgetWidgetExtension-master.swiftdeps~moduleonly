@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.22.4 clang-1200.0.25.1)"
+options: "65a20646e8e2e2c41b8b7dbacebcfa37"
+build_time: [1596470850, 536443000]
+inputs:
+  "/Users/lewisgriffin/Documents/SwiftUI/DemoWidget/DemoWidgetWidget/DemoWidgetWidget.swift": [1596470845, 269148392]

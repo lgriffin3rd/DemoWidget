@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0CBCE136-EE52-45D7-A467-991081004BE1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>0CBCE136-EE52-45D7-A467-991081004BE1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>DemoWidget-cylvnloatyuaeletmzkvdcqewqtx</string>
+			<key>timeStartedRecording</key>
+			<real>618181261.24043298</real>
+			<key>timeStoppedRecording</key>
+			<real>618181262.28068805</real>
+			<key>title</key>
+			<string>Build target DemoWidget</string>
+			<key>uniqueIdentifier</key>
+			<string>0CBCE136-EE52-45D7-A467-991081004BE1</string>
+		</dict>
+		<key>18C088CA-87B7-4F8F-BC8D-7591AD84295F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>18C088CA-87B7-4F8F-BC8D-7591AD84295F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>DemoWidgetWidgetExtension-cylvnloatyuaeletmzkvdcqewqtx</string>
+			<key>timeStartedRecording</key>
+			<real>618181260.45109797</real>
+			<key>timeStoppedRecording</key>
+			<real>618181261.98215997</real>
+			<key>title</key>
+			<string>Build target DemoWidgetWidgetExtension</string>
+			<key>uniqueIdentifier</key>
+			<string>18C088CA-87B7-4F8F-BC8D-7591AD84295F</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
