@@ -11,7 +11,44 @@
 		FD337DE224D8467600408B6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337DE124D8467600408B6A /* ContentView.swift */; };
 		FD337DE424D8467700408B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD337DE324D8467700408B6A /* Assets.xcassets */; };
 		FD337DE724D8467700408B6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD337DE624D8467700408B6A /* Preview Assets.xcassets */; };
+		FD337DF124D846A900408B6A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337DF024D846A900408B6A /* Movie.swift */; };
+		FD337DF424D8470700408B6A /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337DF224D8470600408B6A /* MovieView.swift */; };
+		FD337DF524D8470700408B6A /* MovieRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337DF324D8470700408B6A /* MovieRatingView.swift */; };
+		FD337DF824D84AC500408B6A /* MyMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337DF724D84AC500408B6A /* MyMovieView.swift */; };
+		FD337E0024D86DBD00408B6A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD337DFF24D86DBD00408B6A /* WidgetKit.framework */; };
+		FD337E0224D86DBD00408B6A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD337E0124D86DBD00408B6A /* SwiftUI.framework */; };
+		FD337E0524D86DBD00408B6A /* DemoWidgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337E0424D86DBD00408B6A /* DemoWidgetWidget.swift */; };
+		FD337E0724D86DC000408B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD337E0624D86DC000408B6A /* Assets.xcassets */; };
+		FD337E0B24D86DC000408B6A /* DemoWidgetWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FD337DFD24D86DBD00408B6A /* DemoWidgetWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD337E1224D8711300408B6A /* MovieRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337DF324D8470700408B6A /* MovieRatingView.swift */; };
+		FD337E1324D8711B00408B6A /* MyMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337DF724D84AC500408B6A /* MyMovieView.swift */; };
+		FD337E1424D8712400408B6A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD337DF024D846A900408B6A /* Movie.swift */; };
+		FD337E1524D8712D00408B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD337DE324D8467700408B6A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD337E0924D86DC000408B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD337DD424D8467600408B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD337DFC24D86DBD00408B6A;
+			remoteInfo = DemoWidgetWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD337E0F24D86DC000408B6A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FD337E0B24D86DC000408B6A /* DemoWidgetWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FD337DDC24D8467600408B6A /* DemoWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +57,18 @@
 		FD337DE324D8467700408B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD337DE624D8467700408B6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD337DE824D8467700408B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD337DF024D846A900408B6A /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		FD337DF224D8470600408B6A /* MovieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		FD337DF324D8470700408B6A /* MovieRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRatingView.swift; sourceTree = "<group>"; };
+		FD337DF724D84AC500408B6A /* MyMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieView.swift; sourceTree = "<group>"; };
+		FD337DFD24D86DBD00408B6A /* DemoWidgetWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DemoWidgetWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD337DFF24D86DBD00408B6A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		FD337E0124D86DBD00408B6A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FD337E0424D86DBD00408B6A /* DemoWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoWidgetWidget.swift; sourceTree = "<group>"; };
+		FD337E0624D86DC000408B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD337E0824D86DC000408B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD337E1024D86DF000408B6A /* DemoWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoWidget.entitlements; sourceTree = "<group>"; };
+		FD337E1124D86E7400408B6A /* DemoWidgetWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoWidgetWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,13 +79,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD337DFA24D86DBD00408B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD337E0224D86DBD00408B6A /* SwiftUI.framework in Frameworks */,
+				FD337E0024D86DBD00408B6A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		FD337DD324D8467600408B6A = {
 			isa = PBXGroup;
 			children = (
+				FD337E1124D86E7400408B6A /* DemoWidgetWidgetExtension.entitlements */,
 				FD337DDE24D8467600408B6A /* DemoWidget */,
+				FD337E0324D86DBD00408B6A /* DemoWidgetWidget */,
+				FD337DFE24D86DBD00408B6A /* Frameworks */,
 				FD337DDD24D8467600408B6A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FD337DDC24D8467600408B6A /* DemoWidget.app */,
+				FD337DFD24D86DBD00408B6A /* DemoWidgetWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +114,9 @@
 		FD337DDE24D8467600408B6A /* DemoWidget */ = {
 			isa = PBXGroup;
 			children = (
+				FD337E1024D86DF000408B6A /* DemoWidget.entitlements */,
+				FD337DEF24D8468C00408B6A /* Views */,
+				FD337DEE24D8468200408B6A /* Data */,
 				FD337DDF24D8467600408B6A /* DemoWidgetApp.swift */,
 				FD337DE124D8467600408B6A /* ContentView.swift */,
 				FD337DE324D8467700408B6A /* Assets.xcassets */,
@@ -69,6 +134,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FD337DEE24D8468200408B6A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FD337DF024D846A900408B6A /* Movie.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FD337DEF24D8468C00408B6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD337DF324D8470700408B6A /* MovieRatingView.swift */,
+				FD337DF224D8470600408B6A /* MovieView.swift */,
+				FD337DF724D84AC500408B6A /* MyMovieView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD337DFE24D86DBD00408B6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD337DFF24D86DBD00408B6A /* WidgetKit.framework */,
+				FD337E0124D86DBD00408B6A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD337E0324D86DBD00408B6A /* DemoWidgetWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD337E0424D86DBD00408B6A /* DemoWidgetWidget.swift */,
+				FD337E0624D86DC000408B6A /* Assets.xcassets */,
+				FD337E0824D86DC000408B6A /* Info.plist */,
+			);
+			path = DemoWidgetWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +181,34 @@
 				FD337DD824D8467600408B6A /* Sources */,
 				FD337DD924D8467600408B6A /* Frameworks */,
 				FD337DDA24D8467600408B6A /* Resources */,
+				FD337E0F24D86DC000408B6A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FD337E0A24D86DC000408B6A /* PBXTargetDependency */,
 			);
 			name = DemoWidget;
 			productName = DemoWidget;
 			productReference = FD337DDC24D8467600408B6A /* DemoWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FD337DFC24D86DBD00408B6A /* DemoWidgetWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD337E0C24D86DC000408B6A /* Build configuration list for PBXNativeTarget "DemoWidgetWidgetExtension" */;
+			buildPhases = (
+				FD337DF924D86DBD00408B6A /* Sources */,
+				FD337DFA24D86DBD00408B6A /* Frameworks */,
+				FD337DFB24D86DBD00408B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoWidgetWidgetExtension;
+			productName = DemoWidgetWidgetExtension;
+			productReference = FD337DFD24D86DBD00408B6A /* DemoWidgetWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +220,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					FD337DDB24D8467600408B6A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					FD337DFC24D86DBD00408B6A = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -117,6 +241,7 @@
 			projectRoot = "";
 			targets = (
 				FD337DDB24D8467600408B6A /* DemoWidget */,
+				FD337DFC24D86DBD00408B6A /* DemoWidgetWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +256,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD337DFB24D86DBD00408B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD337E1524D8712D00408B6A /* Assets.xcassets in Resources */,
+				FD337E0724D86DC000408B6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,11 +273,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD337DE224D8467600408B6A /* ContentView.swift in Sources */,
+				FD337DF424D8470700408B6A /* MovieView.swift in Sources */,
+				FD337DF524D8470700408B6A /* MovieRatingView.swift in Sources */,
 				FD337DE024D8467600408B6A /* DemoWidgetApp.swift in Sources */,
+				FD337DF124D846A900408B6A /* Movie.swift in Sources */,
+				FD337DF824D84AC500408B6A /* MyMovieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD337DF924D86DBD00408B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD337E1224D8711300408B6A /* MovieRatingView.swift in Sources */,
+				FD337E0524D86DBD00408B6A /* DemoWidgetWidget.swift in Sources */,
+				FD337E1424D8712400408B6A /* Movie.swift in Sources */,
+				FD337E1324D8711B00408B6A /* MyMovieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD337E0A24D86DC000408B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD337DFC24D86DBD00408B6A /* DemoWidgetWidgetExtension */;
+			targetProxy = FD337E0924D86DC000408B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FD337DE924D8467700408B6A /* Debug */ = {
@@ -265,8 +422,10 @@
 		FD337DEC24D8467700408B6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoWidget/DemoWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoWidget/Preview Content\"";
 				DEVELOPMENT_TEAM = 6957UY73VL;
@@ -287,8 +446,10 @@
 		FD337DED24D8467700408B6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoWidget/DemoWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoWidget/Preview Content\"";
 				DEVELOPMENT_TEAM = 6957UY73VL;
@@ -301,6 +462,50 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ig3.DemoWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD337E0D24D86DC000408B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DemoWidgetWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6957UY73VL;
+				INFOPLIST_FILE = DemoWidgetWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ig3.DemoWidget.DemoWidgetWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD337E0E24D86DC000408B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DemoWidgetWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6957UY73VL;
+				INFOPLIST_FILE = DemoWidgetWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ig3.DemoWidget.DemoWidgetWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +528,15 @@
 			buildConfigurations = (
 				FD337DEC24D8467700408B6A /* Debug */,
 				FD337DED24D8467700408B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD337E0C24D86DC000408B6A /* Build configuration list for PBXNativeTarget "DemoWidgetWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD337E0D24D86DC000408B6A /* Debug */,
+				FD337E0E24D86DC000408B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,7 +5,64 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>38646F6A-92DB-4BF9-BF66-F2BFA588F6DC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>38646F6A-92DB-4BF9-BF66-F2BFA588F6DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>DemoWidgetWidgetExtension-cylvnloatyuaeletmzkvdcqewqtx</string>
+			<key>timeStartedRecording</key>
+			<real>618165923.74436998</real>
+			<key>timeStoppedRecording</key>
+			<real>618165924.94778502</real>
+			<key>title</key>
+			<string>Build target DemoWidgetWidgetExtension</string>
+			<key>uniqueIdentifier</key>
+			<string>38646F6A-92DB-4BF9-BF66-F2BFA588F6DC</string>
+		</dict>
+		<key>EF955A21-7CA0-42AC-8D0F-4484C90499F4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>EF955A21-7CA0-42AC-8D0F-4484C90499F4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>DemoWidget-cylvnloatyuaeletmzkvdcqewqtx</string>
+			<key>timeStartedRecording</key>
+			<real>618165924.94899905</real>
+			<key>timeStoppedRecording</key>
+			<real>618165927.37939405</real>
+			<key>title</key>
+			<string>Build target DemoWidget</string>
+			<key>uniqueIdentifier</key>
+			<string>EF955A21-7CA0-42AC-8D0F-4484C90499F4</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

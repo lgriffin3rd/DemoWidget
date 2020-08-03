@@ -1,0 +1,48 @@
+---
+path:            '/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Intents.swiftmodule/arm64-apple-ios.swiftmodule'
+dependencies:
+  - mtime:           1595037542000000000
+    path:            '/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Intents.swiftmodule/arm64-apple-ios.swiftmodule'
+    size:            121656
+  - mtime:           1595027227000000000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1595027227000000000
+    path:            'usr/include/mach-o/dyld.modulemap'
+    size:            71
+    sdk_relative:    true
+  - mtime:           1595027227000000000
+    path:            'usr/include/mach-o/compact_unwind_encoding.modulemap'
+    size:            109
+    sdk_relative:    true
+  - mtime:           1594967095000000000
+    path:            'usr/include/objc/ObjectiveC.apinotes'
+    size:            11147
+    sdk_relative:    true
+  - mtime:           1594879853000000000
+    path:            'System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes'
+    size:            29817
+    sdk_relative:    true
+  - mtime:           1595027225000000000
+    path:            'System/Library/Frameworks/Security.framework/Headers/Security.apinotes'
+    size:            162
+    sdk_relative:    true
+  - mtime:           1595027224000000000
+    path:            'System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes'
+    size:            80492
+    sdk_relative:    true
+  - mtime:           1595027224000000000
+    path:            'System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes'
+    size:            1557
+    sdk_relative:    true
+  - mtime:           1594937636000000000
+    path:            'System/Library/Frameworks/Intents.framework/Headers/Intents.apinotes'
+    size:            81504
+    sdk_relative:    true
+  - mtime:           1595027228000000000
+    path:            'usr/lib/swift/Intents.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            24148
+    sdk_relative:    true
+version:         1
+...
